@@ -14,7 +14,6 @@
 ### 🔍 Interactive Dashboard & Distribution Analysis
 Here is the visual representation of our customer segments based on their purchase behaviors. The multi-dimensional analysis isolates low-value risk groups from high-contributing champions.
 
-*📊 
 ![RFM Pairplot](./RFM_Pairplot.png)
 
 ---
