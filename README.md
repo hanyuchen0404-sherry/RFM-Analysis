@@ -1,4 +1,3 @@
-# RFM-Analysis
 # 🚀 Data-Driven E-Commerce RFM Segmentation & Predictive Clustering Pipeline
 
 [![GitHub Stars](https://shields.io)](https://github.com)
@@ -23,7 +22,7 @@ Here is the visual representation of our customer segments based on their purcha
 - **Dynamic ETL Data Cleansing (Power BI)**: Processed raw transaction logs (`SalesRecordV05`), implemented conditional mapping to factor in sales volume (`Unitsold`), price parameters, and custom discount deductions (`Discount`).
 - **Statistical Percentile Scoring**: Engineered robust Recency, Frequency, and Monetary scores using Pandas quantiles to avoid duplicate boundary errors (`rank(method='first')`).
 - **Unsupervised Machine Learning**: Applied **Min-Max Feature Scaling** followed by **K-Means Clustering (K=4)** to separate data points into high-cohesion buyer persona networks.
-- **Actionable Customer Classification**: Automatically categorized all active buyers into explicit operational segments: `High` (Champions), `Medium` (Loyal/Potential), `Low` (At Risk), and `Missing` (Lost).
+- **Actionable Customer Classification**: Automatically categorized all active buyers into explicit operational segments: `High`, `Medium`, `Low`, and `Missing`.
 
 ---
 
